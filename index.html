@@ -11,24 +11,32 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__container">
-            <div class="header__container-logo">
-                <button aria-label="Наверх">
-                    <svg></svg>
-                </button>
-            </div>
-            <nav id="menu" class="header__nav">
-                <ul class="menu__nav-list">
-                    <li class="menu__nav-item clickable_item">Афиша</li>
-                    <li class="menu__nav-item clickable_item hasDropdown_item">Академия</li>
-                    <li class="menu__nav-item clickable_item hasDropdown_item">О нас</li>
-                    <li class="menu__nav-item clickable_item">Аренда</li>
-                    <li class="menu__nav-item clickable_item">Расположение</li>
+        <div class="header__inner">
+            <a href="/" class="header__logo logo">
+                <svg></svg>
+            </a>
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item clickable_item">
+                        <a href="/" class="header__menu-link">Афиша</a>
+                    </li>
+                    <li class="header__menu-item clickable_item hasDropdown_item">
+                        <a href="/" class="header__menu-link">Занятия</a>
+                    </li>
+                    <li class="header__menu-item clickable_item hasDropdown_item">
+                        <a href="/" class="header__menu-link">Аренда</a>
+                    </li>
+                    <li class="header__menu-item clickable_item">
+                        <a href="/" class="header__menu-link">О нас</a>
+                    </li>
+                    <li class="header__menu-item clickable_item">
+                        <a href="/" class="header__menu-link">Расположение</a>
+                    </li>
                 </ul>
             </nav>
-            <a href="#" class="header__buyButton animatedBtn style_button_hop">
-                <span class="buyButton__text">Оставить заявку</span>
-            </a>
+            <button class="header__button button button--main" type="button">
+                <span class="header__button-text">Оставить заявку</span>
+            </button>
         </div>
     </header>
 
