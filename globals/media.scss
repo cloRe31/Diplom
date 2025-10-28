@@ -1,0 +1,11 @@
+@media (hover: hover){
+    .header{
+        &__menu{
+            &-link{
+                &:hover{
+                    opacity: 0.85;
+                }
+            }
+        }
+    }
+}

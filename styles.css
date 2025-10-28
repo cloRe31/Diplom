@@ -24,6 +24,11 @@ a {
   cursor: pointer;
 }
 
+@media (hover: hover) {
+  .header__menu-link:hover {
+    opacity: 0.85;
+  }
+}
 .header {
   background: linear-gradient(180deg, #171717, #151515);
   display: block;
