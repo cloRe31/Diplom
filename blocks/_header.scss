@@ -32,6 +32,28 @@
             font-size: 1.1rem;
             padding: 0.5rem;
             color: $white;
+
+            @media (hover: hover){
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+        }
+
+        &-dropdown{
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #333;
+            padding: 10px 0;
+
+            &-link{
+                display: block;
+                padding: 8px 15px;
+                color: white;
+                text-decoration: none;
+            }
         }
     }
 
@@ -44,7 +66,9 @@
     }
 }
 
-
+.hasDropdown_item{
+    position: relative;
+}
 
 
 

@@ -24,11 +24,6 @@ a {
   cursor: pointer;
 }
 
-@media (hover: hover) {
-  .header__menu-link:hover {
-    opacity: 0.85;
-  }
-}
 .header {
   background: linear-gradient(180deg, #171717, #151515);
   display: block;
@@ -61,8 +56,31 @@ a {
   padding: 0.5rem;
   color: #FFFFFF;
 }
+@media (hover: hover) {
+  .header__menu-link:hover {
+    opacity: 0.8;
+  }
+}
+.header__menu-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #333;
+  padding: 10px 0;
+}
+.header__menu-dropdown-link {
+  display: block;
+  padding: 8px 15px;
+  color: white;
+  text-decoration: none;
+}
 .header__button-text {
   color: #000000;
+}
+
+.hasDropdown_item {
+  position: relative;
 }
 
 .logo {
